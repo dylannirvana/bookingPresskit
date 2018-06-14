@@ -2,3 +2,53 @@
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+@media (min-width: 48em) {
+  .bio p {
+    column-count: 3;
+  }
+}
+
+#bio {
+  // background-color: pink;
+  padding-top: 3rem;
+}
+
+.example-container {
+  width: 800px;
+  @include make-container();
+}
+
+.example-row {
+  @include make-row();
+}
+
+.example-content-main {
+  @include make-col-ready();
+
+  @include media-breakpoint-up(sm) {
+    @include make-col(6);
+  }
+  @include media-breakpoint-up(lg) {
+    @include make-col(8);
+  }
+}
+
+.example-content-secondary {
+  @include make-col-ready();
+
+  @include media-breakpoint-up(sm) {
+    @include make-col(6);
+  }
+  @include media-breakpoint-up(lg) {
+    @include make-col(4);
+  }
+}

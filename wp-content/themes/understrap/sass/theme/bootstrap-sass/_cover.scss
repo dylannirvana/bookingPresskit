@@ -6,41 +6,41 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  // color: #fff;
 }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  // color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
 }
 
-
-/*
- * Base structure
- */
-
-html,
-body {
-  height: 100%;
-  background-color: #333;
+.one {
+  background-color: #111;
 }
-
-body {
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+.two {
+  background: #000;
 }
-
+.three {
+  background: #111
+}
+.four {
+  background: #000;
+}
 .cover-container {
   max-width: 42em;
+  p {
+    color: #000;
+    font-weight: 600;
+  }
+  section.cover {
+    text-align: right;
+  }
 }
 // This keeps the wp navbar at 100%
 // otherwise, it will inherit (upwards?)
@@ -103,8 +103,18 @@ body {
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
+  // padding: 0 1.5rem;
+  padding-left: 2rem;
+  // padding-right: 1rem;
   padding-top: 25%;
+  justify-content: flex-end;
+  text-align: right;
+  h1 {
+    color: red;
+  }
+  p {
+    color: wheat;
+  }
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;

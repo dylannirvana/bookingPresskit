@@ -10,7 +10,7 @@
  * @package understrap
  */
 
-get_header();
+get_header('secondary');
 
 $container   = get_theme_mod( 'understrap_container_type' );
 

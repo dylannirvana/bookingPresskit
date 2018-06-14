@@ -2,6 +2,7 @@
 var gulp = require( 'gulp' );
 var plumber = require( 'gulp-plumber' );
 var sass = require( 'gulp-sass' );
+// var susy = require( 'susy' ); // susy
 var watch = require( 'gulp-watch' );
 var cssnano = require( 'gulp-cssnano' );
 var rename = require( 'gulp-rename' );
@@ -145,6 +146,12 @@ gulp.task( 'scripts', function() {
         // End - All BS4 stuff
 
         paths.dev + '/js/skip-link-focus-fix.js',
+
+        // TweenMax and ScrollMagic
+        paths.dev + '/js/greensock-js/src/uncompressed/TweenMax.js',
+        paths.dev + '/js/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js',
+        paths.dev + '/js/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js',
+        paths.dev + '/js/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js',
 
         // Adding currently empty javascript file to add on for your own themes´ customizations
         // Please add any customizations to this .js file only!
