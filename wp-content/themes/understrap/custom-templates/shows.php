@@ -26,7 +26,8 @@
     <!-- END WP_Query -->
 
   <!-- Bands in Town Embed Code -->
-  <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Dylan Nirvana & The Bad Flowers" data-display-local-dates="true" data-display-past-dates="true" data-auto-style="false" data-text-color="#000000" data-link-color="#31465C" data-popup-background-color="#FFFFFF" data-background-color="#FFFFFF" data-display-limit="15" data-link-text-color="#FFFFFF"></a>
+  <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Dan Connolly" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#000000" data-link-color="#2F95DE" data-popup-background-color="#FFFFFF" data-background-color="#FFFFFF" data-display-limit="15" data-link-text-color="#FFFFFF"></a>
+
 
 </div>
 </div> <!-- /container -->

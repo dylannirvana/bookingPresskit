@@ -25,9 +25,9 @@
     ?>
     <!-- END WP_Query -->
 
-  <!-- Start Square Appointments Embed Code -->
-  <script src='https://squareup.com/appointments/buyer/widget/9d72ec18-cf4d-4d08-9449-f5ab72d0044f/545ZJYTGVPEGN.js'></script><!-- End Square Appointments EmbedCode -->
-
+<!-- Start Square Appointments Embed Code -->
+<script src='https://squareup.com/appointments/buyer/widget/02df4de9-349d-43c3-b4e8-b032a4ff7ccd/3SAZTPNG8Q9MJ.js'></script>
+<!-- End Square Appointments EmbedCode -->
 </div>
 </div> <!-- /container -->
 </div>
