@@ -12,29 +12,20 @@ get_header(); ?>
 
 <!-- These are the scenes -->
   <!-- Photo -->
-  <!-- <section class="panel "> -->
   <?php get_template_part( "custom-templates/cover") ?>
-<!-- </section> -->
   <!-- Bio -->
-  <!-- <section class="panel "> -->
   <?php get_template_part( "custom-templates/card") ?>
-<!-- </section> -->
   <!-- Booking -->
-  <!-- <section class="panel "> -->
   <?php get_template_part( "custom-templates/square") ?>
-<!-- </section> -->
   <!-- Music -->
-  <!-- <section class="panel two"> -->
   <?php get_template_part( "custom-templates/music") ?>
-<!-- </section> -->
   <!-- Tickets -->
-  <!-- <section class="panel three"> -->
   <?php get_template_part( "custom-templates/shows") ?>
-  <!-- </section> -->
-  <!-- <section class="panel four"> -->
+  <!-- Social -->
   <?php get_template_part( "custom-templates/instagram") ?>
+  <!-- Fixed logo -->
+  <?php get_template_part( "custom-templates/logo" ) ?>
 
   <!-- END scenes  -->
 
 <?php get_footer(); ?>
-<!-- </section> -->

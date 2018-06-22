@@ -16,6 +16,20 @@
  // }
 ///////
 
+.dfclogo {
+  position: fixed;
+  bottom: 44px;
+  right: 44px;
+  width: 100px;
+  opacity: .5;
+  display: none;
+}
+@media (min-width: 48em) {
+  .dfclogo {
+    display: block;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css?family=New+Rocker');
 
 .entry-content {
@@ -41,7 +55,7 @@ body {
   // color: #333;
   color: #333;
   h1,h2,h3,h4,h5,h6 {
-    color: lighten(darkred, 10%);
+    color: lighten(darkblue, 10%);
   }
   // text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
@@ -59,8 +73,32 @@ nav .navbar, .navbar-expand-md, .navbar-dark, .bg-dark {
   opacity: .7;
   // padding: .5rem 4rem;
 
-  li.menu-item > a > i.fab {
-    width: 44px;
+// h3.social-icons {
+//   i.fab {
+//     color: green;
+//   }
+// }
+ul.main-menu {
+  justify-content: flex-start;
+}
+.nav-link {
+  // background: green;
+  // i.fab {
+  //   background: red;
+  //   display: flex;
+  //   justify-content: space-around;
+  // }
+}
+  li {
+    i.fab {
+      // color: pink;
+      font-size: 1.6rem;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 14px;
+    }
   }
 }
 

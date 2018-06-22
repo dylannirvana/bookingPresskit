@@ -20,18 +20,7 @@ a:hover {
   border: .05rem solid #fff;
 }
 
-.one {
-  background-color: #111;
-}
-.two {
-  background: #000;
-}
-.three {
-  background: #111
-}
-.four {
-  background: #000;
-}
+
 .cover-container {
   max-width: 42em;
   p {
@@ -110,11 +99,12 @@ a:hover {
   justify-content: flex-end;
   text-align: right;
   h1 {
-    color: red;
+    color: #000;
     // color: #000;
     // font-family: 'New Rocker', cursive;
     // font-size: 3rem;
-    text-shadow: black 1px 1px !important;
+    font-weight: bold;
+    text-shadow: #ccc 1px 1px !important;
   }
   p {
     color: wheat;
