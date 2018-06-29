@@ -27,7 +27,7 @@ jQuery(function($){
 // // BASIC TWEEN
 var controller = new ScrollMagic.Controller();
 
-// build scene
+// changes color of type when sections are triggered
 var scene1 = new ScrollMagic.Scene({
           triggerElement: "#bio"
         })
@@ -38,22 +38,37 @@ var scene2 = new ScrollMagic.Scene({
           triggerElement: "#booking"
         })
         .setTween("#booking", 0.5, {color: "#fff", scale:1.02, ease:Power2.easeInOut}) // trigger a TweenMax.to tween
-        .setTween(".dfclogo", 0.5, {opacity: 0, ease:Power1.easeOut}) // trigger a TweenMax.to tween
+        // .setTween(".dfclogo", 0.5, {opacity: 0, ease:Power1.easeOut}) // trigger a TweenMax.to tween
         .addTo(controller);
 
 var scene3 = new ScrollMagic.Scene({
           triggerElement: "#music"
         })
         .setTween("#music", 0.5, {color: "#fff", scale:1.02, ease:Power2.easeInOut}) // trigger a TweenMax.to tween
-        .setTween(".dfclogo", 0.5, {opacity: .5, ease:Power1.easeOut}) // trigger a TweenMax.to tween
+        // .setTween(".dfclogo", 0.5, {opacity: .5, ease:Power1.easeOut}) // trigger a TweenMax.to tween
         .addTo(controller);
 
 var scene4 = new ScrollMagic.Scene({
           triggerElement: "#shows"
         })
-        .setTween("#shows", 0.5, {color: "#fff", scale:1.1, ease:Power2.easeInOut}) // trigger a TweenMax.to tween
+        .setTween("#shows", 0.5, {color: "#fff", scale:1.02, ease:Power2.easeInOut}) // trigger a TweenMax.to tween
         // .setTween(".dfclogo", 0.5, {opacity: 0, ease:Power1.easeOut}) // trigger a TweenMax.to tween
         .addTo(controller);
+
+// logo fades out and in
+var scene5 = new ScrollMagic.Scene({
+          triggerElement: "#booking"
+        })
+        .setTween(".dfclogo", 0.5, {opacity: 0, ease:Power1.easeOut}) // trigger a TweenMax.to tween
+        .addTo(controller);
+
+var scene6 = new ScrollMagic.Scene({
+          triggerElement: "#music"
+        })
+        .setTween(".dfclogo", 0.5, {opacity: .5, ease:Power1.easeOut}) // trigger a TweenMax.to tween
+        .addTo(controller);
+
+
 
 //////////
 

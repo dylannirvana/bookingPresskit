@@ -1,7 +1,7 @@
 <div id="bio" class="content">
   <div class="container">
 
-  
+
     <!-- WP QUERY -->
     <?php
       $query = new WP_Query( 'pagename=bio' );
