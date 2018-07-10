@@ -1,8 +1,17 @@
-This is an open source Bootstrap - WordPress application built on Understrap and the Square Appointments API. It uses Gulp and BrowserSync as a build system, with SASS as a CSS preprocessor. The backend is PHP/SQL and uses the WordPress CMS admin.
+## Booking MVP with Square Appointments API ##
+In researching online tools used by Booking Agents, I made the observation that, like many CRM software, they are wieldy, awkward to use, hard to learn, and expensive. Square Appointments / Square e-commerce is lightweight, and really has its UX together. https://squ.re/2L0QtrS
 
-It is scaffolded with the WP CLI and utilizes mainly the Square Appointments API, along with Bands in Town. It is WooCommerce ready, and employs GSAP - ScrollMagic.
+### User Centered Development ###
+Instead of starting with a typical visual design or use-case template, I employed Agile, User Experience techniques to produce IA drawings, wireframes and _personae_  https://bit.ly/2mbZ4KF , To guide development of an MVP.
 
-The way to use this application is by booking appointments through Square, which shows up here, and populates Bands in Town. Just a minimalist interpretation of a Data Driven Single Page Application based on User Driven Development.
+### Extensible Bootstrap / Wordpress ###
+The application is an open source Bootstrap / WordPress hybrid built with Understrap https://understrap.com/ . It uses Gulp as a build system, BrowserSync, with SASS as a CSS preprocessor. The backend is PHP/SQL. WordPress as you may know, is moving toward JavaScript, beyond the WP API. The application can be extended in MERN (React-Node).
+
+It is scaffolded with the WP CLI. It employs GSAP - ScrollMagic, so you can animate just about anything with it https://greensock.com/gsap .
+
+The way to use this application is by booking appointments through Square, which shows up here, and populates Bands in Town. Just a minimalist interpretation of User Driven Development.
+
+Book Danny Francis Connolly https://lnkd.in/ec8UwPU #ecommerce #uxdesign
 
 ## Installation ##
 WP CLI
@@ -19,5 +28,3 @@ npm install || or do it through wp-admin
 change proxy in gulpconfig to localhost:8888/nameOfRepo
 
 Until the Yeoman generator is rewritten, populate file changes manually from previous installations.
-
-http://dfcrock.com 
