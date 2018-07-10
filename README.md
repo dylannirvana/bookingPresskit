@@ -31,6 +31,6 @@ Understrap
 https://understrap.com/
 Install theme
 npm install || or do it through wp-admin
-change proxy in gulpconfig to localhost:8888/nameOfRepo
+change proxy in gulpconfig to localhost:8888/nameOfRepo. Consult the README in the understrap theme folder for more details. Read comments in the gulpfile.js for the list of commands. 
 
 Until the Yeoman generator is rewritten, populate file changes manually from previous installations.
